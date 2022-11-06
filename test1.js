@@ -18,4 +18,3 @@ if (!!window.SharedWorker) {
         console.log("output -------->", e.data);
     }
 }
-
