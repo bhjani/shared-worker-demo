@@ -10,7 +10,7 @@ if (!!window.SharedWorker) {
     }
 
     calculate.onclick = function() {
-        worker.port.postMessage(100000000);
+        worker.port.postMessage([100000000]);
     }
 
     worker.port.onmessage = function (e) {
