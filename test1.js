@@ -14,7 +14,7 @@ if (!!window.SharedWorker) {
     }
 
     worker.port.onmessage = function (e) {
-        console.log("return worker 1 -------->", e.data);
+        console.log("return worker 1 -------->");
         output.value = e.data.number;
     }
 }
