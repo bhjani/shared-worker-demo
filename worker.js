@@ -5,6 +5,6 @@ onconnect = function(e) {
     port.onmessage = (e) => {
         console.log("worker..........1");
         for (let i = 0; i < e.data[0]; i++) {};
-        port.postMessage({numer: e.data[0]});
+        port.postMessage({number: e.data[0]});
     }
 }
